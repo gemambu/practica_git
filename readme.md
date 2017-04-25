@@ -1,6 +1,7 @@
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
-git reset --hard HEAD~1. Porque tenía que deshacer el último commit (para eso aplico el comando git reset HEAD~1), además de perder los cambios realizados en el working copy (para eso añado el comando --hard, para descartar los cambios en local).
+git reset --hard HEAD~1. 
+Porque tenía que deshacer el último commit (para eso aplico el comando git reset HEAD~1), además de perder los cambios realizados en el working copy (para eso añado el comando --hard, para descartar los cambios en local).
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
