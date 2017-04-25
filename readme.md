@@ -1,6 +1,6 @@
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
-git reset --hard HEAD'~1
+`git reset --hard HEAD~1`
 Porque tenía que deshacer el último commit (para eso aplico el comando git reset HEAD~1), además de perder los cambios realizados en el working copy (para eso añado el comando --hard, para descartar los cambios en local).
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
@@ -32,7 +32,7 @@ Sí. Porque la rama title contiene todos los commits padre de master (ambas rama
 
 - ¿Qué comando o comandos utilizaste en el paso 27?
 
-git reset HEAD~1, para no perder los cambios del working copy.
+`git reset HEAD~1`, para no perder los cambios del working copy.
 
 - ¿Qué comando o comandos utilizaste en el paso 28?
 
